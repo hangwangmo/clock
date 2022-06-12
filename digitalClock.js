@@ -27,6 +27,9 @@ function getCalendarTime() {
 
     dateDiv.textContent = year + "-" + formatNumber(month) + "-" + formatNumber(day) + " " + dayList[dayNumber];
     timeDiv.textContent = noon + " " + formatNumber(hour) + ":" + formatNumber(minutes) + ":" + formatNumber(seconds);
+
+    dateDiv.style.color = "red";
+    timeDiv.style.color = "blue";
 }
 
 function formatNumber(number) {
