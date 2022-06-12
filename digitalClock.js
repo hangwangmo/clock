@@ -30,6 +30,9 @@ function getCalendarTime() {
 
     dateDiv.style.color = "red";
     timeDiv.style.color = "blue";
+
+    dateDiv.style.fontSize = "30px";
+    timeDiv.style.fontSize = "50px";
 }
 
 function formatNumber(number) {
