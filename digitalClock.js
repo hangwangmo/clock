@@ -40,6 +40,8 @@ function formatNumber(number) {
     return number;
 }
 
+getCalendarTime();
+
 setInterval(function() {
     getCalendarTime();
 }, 1000);
